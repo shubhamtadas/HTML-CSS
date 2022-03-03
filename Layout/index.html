@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <style>
+          body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Ubuntu', sans-serif;
+          }
+          img{
+            padding : 5px;
+            margin : 2px;
+          }
+          .lefty{
+            position:absolute;
+            right:0
+          }
+          .container1{
+            background-color: #EBF4FA;
+          }
+          h5{
+            padding-top:15px;
+          }
+          .container1 button{
+            margin-top : 22px;
+          }
+          .card{
+            background : white;
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 15px;
+            box-shadow: 5px 10px 18px #888888;
+          }
+          .card-text{
+            padding: 5px;
+            background-color: lightblue;
+            border-radius : 15px;
+          }
+        </style>
+  </head>
+  <body>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light">
+    <img src="C:\Users\Administrator\Desktop\anytimedev.png" width="90" height="70" alt="ATDEV">
+  <div class="lefty">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Technology
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Careers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container1">
+  <h5><center><b>&#169; Copyright 2021 ATDev Services Pvt. Ltd.. All Rights Reserved.</b></center></h5>
+
+  <section id="services">
+        <div class="container-fluid p-1">
+            <div class="row m-3 p-4">
+                <div class="col-lg-4">
+                    <div class="card m-3">
+                        <img src="C:\Users\Administrator\Desktop\anytimedev.png" width="110" height="90" alt="ATDEV"">
+                        <div class="card-body">
+                            <h4 class="card-title pb-2">ATDev Services Pvt. Ltd.</h4>
+                            <p class="card-text">Registered Office: KUL-ECOLOCH CB-105, <br> MAHALUNGE, PUNE, INDIA - 411045 <br> CIN: U74999PN2019OPC181765<br> Email : <a href="#">info@anytimedeveloper.com</a></p>
+                            <h4 class="card-title pb-2">Technology Stack</h4>
+                                <p class="card-text">> Mulesoft <br> > Spring Stack | KONG</p>
+                            <button type="submit" class="btn btn-primary">WORK WITH US</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card m-3">
+                        <div class="card-body">
+                            <h4 class="card-title pb-2">Integration</h4>
+                            <p class="card-text"> > Core System Integration <br> > Modern Apps Integration <br> > Integration Transformation</p>
+                            <h4 class="card-title pb-2">API</h4>
+                            <p class="card-text"> > Cloud API's <br> > MicroServices <br> > API as a Service</p>
+                            <h4 class="card-title pb-2">Transformation</h4>
+                            <p class="card-text"> > Data <br> > Process <br> > Application</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card m-3">
+                        <div class="card-body">
+                            <h4 class="card-title pb-2">What a Query ?</h4>
+                            <form>
+                                <input type="name" class="form-control mb-3" id="exampleFormControlInput1"
+                                placeholder="First Name*">
+                                <input type="name" class="form-control mb-3" id="exampleFormControlInput1"
+                                placeholder="Last Name*">
+                                <input type="email" class="form-control mb-3" id="exampleFormControlInput1"
+                                placeholder="Email*">
+                                <input type="number" class="form-control mb-3" id="exampleFormControlInput1"
+                                placeholder="Telephone*">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message*"
+                                rows="2"></textarea>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+  </body>
+</html>
